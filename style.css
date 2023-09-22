@@ -1,0 +1,37 @@
+:root {
+  --color-blue-medium: #8fe2e4;
+  --color-purple: #632ce7;
+  --color-gray: #ccc;
+  --color-gray-medium: #f8f9fa;
+  --color-yellow: #fac32c;
+}
+
+.nav a {
+    color: black;
+}
+
+.navbar-brand > img {
+    width: 55px;
+}
+
+.icons-social-networks a {
+  --size: 40px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-facebook {
+  background-color: #023693;
+}
+
+.bg-twitter {
+  background-color: #33a9f3;
+}
+
+.bg-dribbble {
+  background-color: #f1066b;
+}
