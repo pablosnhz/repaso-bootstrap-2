@@ -22,6 +22,11 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  transition: .5s filter;
+}
+
+.icons-social-networks a:hover {
+  filter: opacity(0.5);
 }
 
 .bg-facebook {
@@ -34,4 +39,8 @@
 
 .bg-dribbble {
   background-color: #f1066b;
+}
+
+.header-main {
+  min-height: 100vh;
 }
