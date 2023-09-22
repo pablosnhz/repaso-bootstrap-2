@@ -10,6 +10,10 @@
     color: black;
 }
 
+.container .row {
+  margin-bottom: 3rem;
+}
+
 .navbar-brand > img {
     width: 55px;
 }
@@ -43,4 +47,11 @@
 
 .header-main {
   min-height: 100vh;
+}
+
+.icon-service { 
+  --box-size: 70px;
+  width: var(--box-size);
+  height: var(--box-size);
+  padding: 10px;
 }
