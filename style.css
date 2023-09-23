@@ -55,3 +55,11 @@
   height: var(--box-size);
   padding: 10px;
 }
+
+.portofolio-item img {
+  transition: 0.4s transform;
+}
+
+.porfolio-item:hover img {
+  transform: scale(0.96);
+}
