@@ -52,7 +52,7 @@
 }
 
 .header-main {
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .icon-service { 
@@ -72,4 +72,13 @@
 
 .bg-purple {
   background-color: rgba(132, 17, 235, 0.3);
+}
+
+@media screen and (max-width: 376px) {
+  body {
+    margin-top: 4rem;
+  }
+  .header-main {
+    height: initial;
+  }
 }
