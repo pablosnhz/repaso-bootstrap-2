@@ -29,7 +29,13 @@
   transition: .5s filter;
 }
 
-.icons-social-networks a:hover {
+.icons-social-networks a:hover,
+.sec-clients {
+  transition: filter 0.4s;
+}
+
+.icons-social-networks a:hover,
+.sec-clients {
   filter: opacity(0.5);
 }
 
@@ -62,4 +68,8 @@
 
 .porfolio-item:hover img {
   transform: scale(0.96);
+}
+
+.bg-purple {
+  background-color: rgba(132, 17, 235, 0.3);
 }
